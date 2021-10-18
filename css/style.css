@@ -1,6 +1,34 @@
-@media screen and (min-width: 250px){
-  html{
-    text-align: center;
-    background-color: #e6f2ff;
-    font-family: 'Times New Roman', Georgia, serif;
+@media screen and (min-width: 620px){
+  h1{
+    font-size: 3em;
+    margin: 0 0 2.5% 0; 
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+  @media screen and (min-width: 250px){
+    html{
+      text-align: center;
+      background-color: #b1ceec;
+      font-family: 'Times New Roman', Georgia, serif;
+  }
+  
+    h1{
+      font-size: 
+  
+  
+  
+    }
+  
 }
