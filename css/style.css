@@ -36,7 +36,10 @@
     height: 2em;
   }
 
-
+  #submit {
+    font-size: 2em;  
+    margin: 0 0 5% 0;
+    }
 
 }
 
