@@ -94,5 +94,19 @@
     position: relative;
     margin: 10% 0 0 0%;
     }
+
+    #submit {
+      position: relative;
+      clear:both;
+      font-family: Impact;
+      box-sizing: border-box;
+      width: 40%;
+      height: 3em;
+      background-color: orange;
+      color: black;
+      font-size: 1.25em;
+      border-radius: 30%;
+      border: solid thick #0369FF;	
+      }
   
 }
