@@ -8,7 +8,7 @@
     font-size: 3em;
   }
 
-  label{
+  label {
     font-size: 2.5em;
   }
 
@@ -20,13 +20,13 @@
 	  position: relative;    
   }
 
-  #contact_info label {
+  #contact label {
     float:none;
     position: relative;
     left: 10%;
   }
 
-  #contact_info input {
+  #contact input {
     float: none;
     clear: none;
     left: 10%;
@@ -49,7 +49,7 @@
       text-align: center;
       background-color: #b1ceec;
       font-family: 'Times New Roman', Georgia, serif;
-  }
+    }  
   
     h1 {
       font-size: 2em;
@@ -83,12 +83,12 @@
       clear:both;
     }
       
-    #contact_info label {
+    #contact label {
     float:left;
     position: relative;
     }
     
-    #contact_info input {
+    #contact input {
     float: left; 
     clear: both;
     position: relative;
@@ -107,6 +107,6 @@
       font-size: 1.25em;
       border-radius: 30%;
       border: solid thick #0369FF;	
-      }
+    }
   
 }
