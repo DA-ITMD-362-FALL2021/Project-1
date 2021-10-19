@@ -61,6 +61,12 @@
       padding: 2.5%;  
     }
 
+    h2 {
+      margin: auto;
+      color: #7e4103;
+      font-size: 1.7em;
+    }
+
     label: 
   
 }
