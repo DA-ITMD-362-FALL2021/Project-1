@@ -1,11 +1,82 @@
+@media screen and (min-width: 250px) {
+    html {
+      text-align: center;
+      background-color: #b1ceec;
+      font-family: 'Times New Roman', Georgia, serif;
+    }  
+  
+    h1 {
+      font-size: 2em;
+      color: white;
+      background-color: #d40a46bd;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0 0 5% 0;
+      padding: 2.5%;  
+    }
+
+    h2 {
+      margin: auto;
+      color: #7e4103;
+      font-size: 1.7em;
+    }
+
+    label {
+      font-size:1.5em;
+      font-family: 'Roboto Slab', Arial, serif;
+      
+    }
+
+    div {
+      float: left;
+      clear: both;
+      margin: 2%;
+      text-align: left;
+    }  
+
+    section {
+      clear:both;
+    }
+      
+    #contact label {
+    float:left;
+    position: relative;
+    margin: 0 0 15% 0;
+    }
+    
+    #contact input {
+    float: left; 
+    clear: both;
+    position: relative;
+    margin: 10% 0 0 0%;
+    }
+
+    #submit {
+      position: relative;
+      clear:both;
+      font-family: 'Times New Roman';
+      box-sizing: border-box;
+      width: 10%;
+      height: 1.5em;
+      background-color: rgba(201, 123, 224, 0.932);
+      color: black;
+      font-size: 1.25em;
+      border-radius: 15%;
+      border: none;	
+      
+    }
+  
+}
+
 @media screen and (min-width: 620px) {
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0 0 2.5% 0; 
   }
   
   h2 {
-    font-size: 3em;
+    font-size: 2.5em;
+    margin: 1% 0 1% 0;
   }
 
   label {
@@ -31,82 +102,21 @@
     clear: none;
     left: 10%;
     position: relative;
-    margin: 1% 5% 0 0%;
+    margin: 1% 5% 1% 0%;
     width: 20%;
     height: 2em;
   }
 
+  #radio input {
+    float:none;
+    position: relative;
+    left: none;
+    margin: 1% 0 1% 0;
+  }
+
   #submit {
     font-size: 2em;  
-    margin: 0 0 5% 0;
+    margin: 1% 0 3% 0;
     }
 
-}
-
-
-  @media screen and (min-width: 250px) {
-    html {
-      text-align: center;
-      background-color: #b1ceec;
-      font-family: 'Times New Roman', Georgia, serif;
-    }  
-  
-    h1 {
-      font-size: 2em;
-      color: white;
-      background-color: #ff0364cc;
-      box-sizing: border-box;
-      width: 100%;
-      margin: 0 0 5% 0;
-      padding: 2.5%;  
-    }
-
-    h2 {
-      margin: auto;
-      color: #7e4103;
-      font-size: 1.7em;
-    }
-
-    label {
-      font-size:1.5em;
-      font-family: 'Roboto Slab', Arial, serif;
-    }
-
-    div {
-      float: left;
-      clear: both;
-      margin: 5%;
-      text-align: left;
-    }  
-
-    section {
-      clear:both;
-    }
-      
-    #contact label {
-    float:left;
-    position: relative;
-    }
-    
-    #contact input {
-    float: left; 
-    clear: both;
-    position: relative;
-    margin: 10% 0 0 0%;
-    }
-
-    #submit {
-      position: relative;
-      clear:both;
-      font-family: Impact;
-      box-sizing: border-box;
-      width: 40%;
-      height: 3em;
-      background-color: orange;
-      color: black;
-      font-size: 1.25em;
-      border-radius: 30%;
-      border: solid thick #0369FF;	
-    }
-  
 }
