@@ -46,6 +46,15 @@ h1 {
     text-align: left;
   }  
 
+  section {
+    clear: both;
+  }
+    
+  #contact label {
+  float: left;
+  position: relative;
+  margin: 0 0 15% 0;
+  }
 
 
 
