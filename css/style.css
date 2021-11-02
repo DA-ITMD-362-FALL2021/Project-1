@@ -39,6 +39,12 @@ h1 {
     font-family: 'Roboto Slab', Arial, serif;
   }
 
+  div {
+    float: left;
+    clear: both;
+    margin: 2%;
+    text-align: left;
+  }  
 
 
 
