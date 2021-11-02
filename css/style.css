@@ -56,7 +56,12 @@ h1 {
   margin: 0 0 15% 0;
   }
 
-
+  #contact input {
+    float: left; 
+    clear: both;
+    position: relative;
+    margin: 10% 0 0 0%;
+  }
 
 
 
