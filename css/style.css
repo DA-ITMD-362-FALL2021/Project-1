@@ -1,4 +1,27 @@
-@media screen and (min-width: 250px) {
+/*
+ modular scale: 1.618
+*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
     html {
       text-align: center;
       background-color: #b1ceec;
@@ -67,7 +90,7 @@
   
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 3.5em;
     font-weight: 700;
