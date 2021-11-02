@@ -27,7 +27,12 @@ h1 {
     padding: 2.5%;  
   }
 
-
+  h2 {
+    font-size: 1.618em;
+    margin: auto;
+    color: #7e4103;
+    font-size: 1.7em;
+  }
 
 
 
