@@ -10,7 +10,12 @@ body {
   font-family: 'Times New Roman', Georgia, serif;        
 }
 
-
+header{
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 
 
