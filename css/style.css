@@ -2,7 +2,13 @@
  modular scale: 1.618
 */ 
 
-
+body {
+  font-size: 16px;
+  height: 98vh;
+  text-align: center;
+  background-color: #b1ceec;
+  font-family: 'Times New Roman', Georgia, serif;        
+}
 
 
 
