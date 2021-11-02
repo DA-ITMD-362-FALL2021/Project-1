@@ -63,7 +63,19 @@ h1 {
     margin: 10% 0 0 0%;
   }
 
-
+  #submit {
+    position: relative;
+    clear:both;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+    width: 10%;
+    height: 1.5em;
+    background-color: rgba(201, 123, 224, 0.932);
+    color: black;
+    font-size: 1.25em;
+    border-radius: 15%;
+    border: none;	
+  }
 
 
 
