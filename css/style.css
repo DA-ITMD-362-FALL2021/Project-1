@@ -5,9 +5,8 @@
 body {
   font-size: 16px;
   height: 98vh;
-  text-align: center;
   background-color: #b1ceec;
-  font-family: 'Times New Roman', Georgia, serif;        
+  font-family: 'Times New Roman', Georgia, serif;   
 }
 
 header{
@@ -36,6 +35,8 @@ h2 {
 h3 {
   font-size: 1.618em;
   font-weight: 900;
+  text-align: center;
+  display: block;
   margin: auto;  
   color: #f10a0a;  
   padding-bottom: 1%;
@@ -47,10 +48,9 @@ label {
 }  
 
 div {
-  float: left;
+  
   clear: both;
   margin: 2%;
-  text-align: left;
 }  
 
      
@@ -62,21 +62,36 @@ div {
 #contact label {
   font-size: 1.618em;
   width: 100%;
-  display: block;
+  display: inline;
   float: left;
   font-weight: 700;
-  margin: 2% auto;
+  margin: 2% 5% 2% 2%;
 }
 
 #contact input {
-  display: block; 
+  display: inline; 
   width: 100%;
-  margin: 2% auto;
+  
+}
+
+.first {
+  margin: 2% 1% 0 0; 
+
+}
+
+.email label {
+  margin: 0 1% 0 0;  
 }
 
 .radio label {
-  font-size: 1.618em;
-  text-align: center;
+  font-size: 0.618em;
+  text-align: left;
+  display: inline;
+}
+
+.radio input {
+  font-size: 0.618em;
+  text-align: left;
   display: inline;
 }
 
@@ -92,93 +107,6 @@ div {
   font-size: 1.25em;
   border-radius: 15%;
   border: none;	
+  margin: 0 0 0 55%;
 }
 
-@media only screen and (min-width: 768px) {
-  
-    h1 {
-      font-size: 4.236em;
-    }
-
-    h2 {
-      font-size: 2.618em;
-    }
-
-    h3 {
-
-
-    }
-
-    label {
-      font-size:1.618em;
-      font-family: 'Roboto Slab', Arial, serif;
-    }
- 
-    #contact input {
-      height: 1.618em;
-    }
-
-    #submit {
-      float: left;
-      font-size: 2em;  
-      font-weight: 600;
-      margin: 1% 0 3% 35%;
-      width: 30%;
-    }
-    
-}
-
-@media only screen and (min-width: 1200px) {
-  h1 {
-    font-size: 3.5em;
-    font-weight: 700;
-    margin: 0 0 2.5% 0; 
-  }
-  
-  h2 {
-    font-size: 2.5em;
-    margin: 1% 0 1% 0;
-    font-weight: 600;
-  }
-
-  label {
-    font-size: 2.5em;
-  }
-
-  div {
-    float: none;
-	  clear: none;
-	  margin: auto;
-	  left: 10%;
-	  position: relative;    
-  }
-
-  #contact label {
-    float:none;
-    position: relative;
-    left: 10%;
-  }
-
-  #contact input {
-    float: none;
-    clear: none;
-    left: 10%;
-    position: relative;
-    margin: 1% 5% 1% 0%;
-    width: 20%;
-    height: 2em;
-  }
-
-  .radio input {
-    float:none;
-    position: relative;
-    margin: 1% 0 1% 0;
-  }
-
-  #submit {
-    font-size: 2em;  
-    font-weight: 600;
-    margin: 1% 0 3% 0;
-    }
-
-}
