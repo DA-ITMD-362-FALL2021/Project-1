@@ -43,7 +43,7 @@ h3 {
 }
 
 #contact {
-  width:90%;
+  width: 90%;
   margin: 1% auto;
 }
 
@@ -53,7 +53,7 @@ label {
 }  
 
 div {
-  clear: both;
+  clear: none;
   margin: 2%;
 }  
 
@@ -78,14 +78,14 @@ div {
 
 .radio label {
   font-size: 1.618em;
-  float: left;
+  float: none;
 }
 
 .radio input {
   height: 1.618em;
-  float: left;
+  float: none;
   margin-top: 0;
-    
+  position: relative;
 }
 
 #contact #submit {
