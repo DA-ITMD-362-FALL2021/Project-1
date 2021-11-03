@@ -121,6 +121,7 @@ label {
   }
 
   #contact #submit {
+    width: 60%;
   }
 
   #contact .radio {
