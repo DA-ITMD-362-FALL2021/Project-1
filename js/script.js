@@ -26,11 +26,11 @@ window.addEventListener('load', jschg);
 b.addEventListener('click', btnClick);
 
 document.getElementsByName('sms')[0].addEventListener('focus', function(){radiofocus(0);});
-document.getElementsByName('sms')[1].addEventListener('focus', function(){radiofocus(1);});
-document.getElementsByName('sms')[2].addEventListener('focus', function(){radiofocus(2);});
+document.getElementsByName('email')[1].addEventListener('focus', function(){radiofocus(1);});
+document.getElementsByName('both')[2].addEventListener('focus', function(){radiofocus(2);});
 document.getElementsByName('sms')[3].addEventListener('focus', function(){radiofocus(3);});
 
 document.getElementsByName('sms')[0].addEventListener('blur', function(){radioblur(0);});
-document.getElementsByName('sms')[1].addEventListener('blur', function(){radioblur(1);});
-document.getElementsByName('sms')[2].addEventListener('blur', function(){radioblur(2);});
+document.getElementsByName('email')[1].addEventListener('blur', function(){radioblur(1);});
+document.getElementsByName('both')[2].addEventListener('blur', function(){radioblur(2);});
 document.getElementsByName('sms')[3].addEventListener('blur', function(){radioblur(3);});

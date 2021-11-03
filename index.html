@@ -23,7 +23,7 @@
       <div>
         <h3>Sign Up Now</h3>
       </div>
-      <div class="first">
+      <div class="email">
         <label>First Name: </label>
         <input type="text" name="fname" placeholder="Enter Your First Name">
       </div>
@@ -43,26 +43,25 @@
         <label>Phone number: </label>
         <input type="tel" name="phone" placeholder="123-456-7890">
       </div>
-      <div class="radio">
-        <h3>Select Your Preferences: </h3>
+      <div>
+        <h3>Select Your Preferences:</h3>
       </div>  
       <div class="radio">
-        <input type="radio" id="sms" name="sms" value="text">
-        <label for="sms">Yes, I would like to hear about news and events at Illinois Tech as text messages.</label>
+        <label for="sms" class="radio">Yes, I would like to hear about news and events at Illinois Tech as text messages.</label>
+        <input type="radio" id="sms" name="sms" value="sms">
       </div>
       <div class="radio">
-        <input type="radio" id="email" name="email" value="text">
-        <label for="email">Yes, I would like to receive emails about Illinois Tech news and events.</label>
+        <label for="email" class="radio">Yes, I would like to receive emails about Illinois Tech news and events.</label>
+        <input type="radio" id="email" name="email" value="email">
       </div>
       <div class="radio">
+        <label for="both" class="radio">Yes, I would like to receive emails and texts about Illinois Tech news and events.</label>
         <input type="radio" id="both" name="both" value="both">
-        <label for="both">Yes, I would like to receive emails and texts about Illinois Tech news and events.</label>
       </div>
       <div class = "button">
         <input id="submit" type="submit" value="Sign Me Up!">
       </div>
     </form>
   </section>
-  
 </body>
 </html>
