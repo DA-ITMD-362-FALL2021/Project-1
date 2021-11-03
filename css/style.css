@@ -90,7 +90,7 @@ label {
   font-family: 'Times New Roman';
   font-weight: 900;
   box-sizing: border-box;
-  width: 10%;
+  width: 30%;
   height: 1.5em;
   background-color: rgba(201, 123, 224, 0.932);
   color: black;
@@ -112,8 +112,24 @@ label {
     font-size: 2.618em;
   }
 
+  #contact label {
+    font-size: 2.618em;
+  }
 
+  .fields input {
+    height: 2.618em;
+  }
 
+  #contact #submit {
+  }
 
+  #contact .radio {
+    text-align: center;
+    font-size: 1.618em;    
+  }
+
+  #contact .radio input {
+    margin-left: 1%;
+  }
 
 }
