@@ -13,7 +13,6 @@ header{
   width: 100%;
   text-align: center;
   padding-top: 3%;
-  padding-bottom: 0%;
 }
 
 h1 {
@@ -37,7 +36,7 @@ h3 {
   font-weight: 900;
   text-align: center;
   display: block;
-  margin: auto;  
+  margin: 1% 0 0 0;  
   color: #f10a0a;  
   padding-bottom: 1%;
 }
@@ -52,40 +51,37 @@ label {
   font-family: 'Roboto Slab', Arial, serif;
 }  
 
-div {
-  clear: none;
-  margin: 2%;
-}  
+#contact .fields input {
+  display: block; 
+  width: 100%;
+  margin: 2% auto;
+  height: 1.618em;
+}
 
-#contact label {
+#contact .fields label {
+  display: block;
+  float: left;
   font-size: 1.618em;
   width: 100%;
-  display: inline;
-  float: left;
   font-weight: 700;
-  margin: 2% 5% 2% 2%;
+  margin: 0 0 1% 0;
 }
 
-#contact input {
-  display: inline; 
-  width: 40%;
-  height: 1.618em;
-}
-
-.email label {
-  margin: 0 1% 0 0;  
-}
-
-.radio label {
+#contact .radio label {
+  text-align: center;
+  display: inline;
   font-size: 1.618em;
-  float: none;
 }
 
-.radio input {
+#contact .radio input {
+  display: inline;
   height: 1.618em;
-  float: none;
-  margin-top: 0;
-  position: relative;
+  margin-top: 2% auto;
+}
+
+#contact .button {
+  text-align: center;  
+  margin: 1% 0 0 0;
 }
 
 #contact #submit {
@@ -101,6 +97,23 @@ div {
   font-size: 1.25em;
   border-radius: 15%;
   border: none;	
-  margin: 0 0 0 45%;
 }
 
+@media only screen and (min-width: 768px) {
+  h1{
+    font-size: 6.854em;
+  }
+  
+  h2{
+    font-size: 4.236em;
+  }
+
+  h3{
+    font-size: 2.618em;
+  }
+
+
+
+
+
+}
