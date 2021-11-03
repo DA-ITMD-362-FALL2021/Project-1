@@ -66,12 +66,18 @@ h1 {
     margin: 10% 0 0 0%;
   }
 
+  #radio label {
+    font-size: 1em;
+    text-align: center;
+    display: inline;
+  }
+
   #submit {
     position: relative;
     clear:both;
     font-family: 'Times New Roman';
     box-sizing: border-box;
-    width: 10%;
+    width: 15%;
     height: 1.5em;
     background-color: rgba(201, 123, 224, 0.932);
     color: black;
