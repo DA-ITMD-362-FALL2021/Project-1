@@ -35,7 +35,7 @@ h1 {
   }
 
   label {
-    font-size:1.5em;
+    font-size: 1.5em;
     font-family: 'Roboto Slab', Arial, serif;
   }
 
@@ -51,9 +51,12 @@ h1 {
   }
     
   #contact label {
+  font-size: 1em;
+  width: 100%;
+  display: block;
   float: left;
-  position: relative;
-  margin: 0 0 15% 0;
+  font-weight: 500;
+  margin: 2% auto;
   }
 
   #contact input {
@@ -84,7 +87,7 @@ h1 {
 
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     html {
       text-align: center;
       background-color: #b1ceec;
@@ -152,7 +155,7 @@ h1 {
   
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 3.5em;
     font-weight: 700;
